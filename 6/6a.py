@@ -1,6 +1,6 @@
 from math import prod
 
-lines = lines = [line.strip() for line in open("input.txt", "r")]
+lines = [line.strip() for line in open("input.txt", "r")]
 
 operators = [op for op in lines[len(lines) - 1].split()]
 numbers = list(zip(*[[int(n) for n in lines[y].split()] for y in range(0, len(lines) - 1)]))

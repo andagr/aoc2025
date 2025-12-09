@@ -1,4 +1,4 @@
-lines = lines = [line.strip("\n") for line in open("input.txt", "r")]
+lines = [line.strip("\n") for line in open("input.txt", "r")]
 
 matrix = [list(l) for l in lines]
 
