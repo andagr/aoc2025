@@ -6,7 +6,6 @@ connections = {
 paths = 0
 def trace(device, targets):
     global paths
-    print(device, targets)
     if device == "out":
         paths += 1
         return
